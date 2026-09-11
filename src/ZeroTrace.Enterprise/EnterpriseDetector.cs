@@ -1,8 +1,10 @@
 using Microsoft.Win32;
+using System.Runtime.Versioning;
 using ZeroTrace.Core.Models;
 
 namespace ZeroTrace.Enterprise;
 
+[SupportedOSPlatform("windows")]
 public sealed class EnterpriseDetector
 {
     public EnterpriseIndicators Discover()
