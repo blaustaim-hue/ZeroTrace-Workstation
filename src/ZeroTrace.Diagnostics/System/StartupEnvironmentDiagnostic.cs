@@ -52,7 +52,7 @@ public sealed class StartupEnvironmentDiagnostic : IDiagnosticCheck
                 $"At least {entries.Count} registry startup entries were detected.",
                 "Info",
                 80,
-                evidence.Where(e => e.Category == "Startup").ToArray(),
+                evidence.Where(e => e.Source == "Startup").ToArray(),
                 "Review startup applications and disable only items that are unnecessary. Do not disable security, management, backup, accessibility, or business-critical software without validation."));
         }
 
