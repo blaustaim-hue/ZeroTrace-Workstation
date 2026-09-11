@@ -28,13 +28,14 @@ public sealed class SystemUptimeDiagnostic : IDiagnosticCheck
 
         if (uptime >= TimeSpan.FromDays(14))
         {
-            findings.Add(new(
-                "system-long-uptime",
+            findings.Add(new Finding(
+                "SYS-UPTIME-001",
                 "System has been running for an extended period",
                 $"Windows uptime is approximately {Math.Floor(uptime.TotalDays)} days.",
-                FindingSeverity.Info,
-                "Consider a planned restart if troubleshooting performance, update, driver, or service issues. On managed devices, follow organizational maintenance and change-control policy.",
-                Array.Empty<string>()));
+                "Info",
+                70,
+                evidence,
+                "Consider a planned restart when troubleshooting performance, update, driver, or service issues. On managed devices, follow organizational maintenance and change-control policy."));
         }
 
         return Task.FromResult(new DiagnosticResult(
