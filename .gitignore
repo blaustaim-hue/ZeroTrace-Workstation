@@ -1,0 +1,15 @@
+bin/
+obj/
+artifacts/
+TestResults/
+*.user
+*.suo
+.vs/
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
+*.zts
+logs/
+reports/
+snapshots/
