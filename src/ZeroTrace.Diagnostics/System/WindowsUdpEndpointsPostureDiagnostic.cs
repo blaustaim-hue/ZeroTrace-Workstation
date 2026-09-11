@@ -21,9 +21,9 @@ public sealed class WindowsUdpEndpointsPostureDiagnostic : IDiagnosticCheck
         try
         {
             var endpoints = IPGlobalProperties.GetIPGlobalProperties().GetActiveUdpListeners();
-            var loopback = endpoints.Count(e => System.Net.IPAddress.IsLoopback(e.Address));
-            var wildcard = endpoints.Count(e => e.Address.Equals(System.Net.IPAddress.Any) ||
-                                                e.Address.Equals(System.Net.IPAddress.IPv6Any));
+            var loopback = endpoints.Count(e => global::System.Net.IPAddress.IsLoopback(e.Address));
+            var wildcard = endpoints.Count(e => e.Address.Equals(global::System.Net.IPAddress.Any) ||
+                                                e.Address.Equals(global::System.Net.IPAddress.IPv6Any));
 
             evidence.Add(new("UdpEndpointsPosture", "ActiveUdpListeners", endpoints.Length.ToString(), EvidenceState.Info, now));
             evidence.Add(new("UdpEndpointsPosture", "LoopbackListeners", loopback.ToString(), EvidenceState.Info, now));
