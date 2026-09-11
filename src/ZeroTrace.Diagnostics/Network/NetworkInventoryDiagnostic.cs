@@ -78,7 +78,7 @@ public sealed class NetworkInventoryDiagnostic : IDiagnosticCheck
             findings));
     }
 
-    private static bool IPAddressIsAutomaticPrivate(System.Net.IPAddress address)
+    private static bool IPAddressIsAutomaticPrivate(global::System.Net.IPAddress address)
     {
         var bytes = address.GetAddressBytes();
         return bytes.Length == 4 && bytes[0] == 169 && bytes[1] == 254;
