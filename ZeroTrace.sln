@@ -1,0 +1,54 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroTrace.App", "src\ZeroTrace.App\ZeroTrace.App.csproj", "{A3E6C040-040F-5EAA-B676-0E88E777D7F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroTrace.Core", "src\ZeroTrace.Core\ZeroTrace.Core.csproj", "{2F91696C-41A7-5FA0-938A-28272D5EDDA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroTrace.Diagnostics", "src\ZeroTrace.Diagnostics\ZeroTrace.Diagnostics.csproj", "{58CC94A8-FB45-57B7-9075-42B36B9DA970}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroTrace.Enterprise", "src\ZeroTrace.Enterprise\ZeroTrace.Enterprise.csproj", "{76B702B0-B2F5-5634-BE3D-129BFA4A6EDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroTrace.Safety", "src\ZeroTrace.Safety\ZeroTrace.Safety.csproj", "{527F14C5-B89E-5E65-8444-F0DD34BCFE5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroTrace.Remediation", "src\ZeroTrace.Remediation\ZeroTrace.Remediation.csproj", "{3F74D67C-0D09-53C8-BEC1-53673C54E23D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroTrace.Reporting", "src\ZeroTrace.Reporting\ZeroTrace.Reporting.csproj", "{D50A6F45-3BA8-5E5E-B953-40E993513940}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3E6C040-040F-5EAA-B676-0E88E777D7F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3E6C040-040F-5EAA-B676-0E88E777D7F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3E6C040-040F-5EAA-B676-0E88E777D7F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3E6C040-040F-5EAA-B676-0E88E777D7F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F91696C-41A7-5FA0-938A-28272D5EDDA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F91696C-41A7-5FA0-938A-28272D5EDDA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F91696C-41A7-5FA0-938A-28272D5EDDA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F91696C-41A7-5FA0-938A-28272D5EDDA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58CC94A8-FB45-57B7-9075-42B36B9DA970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58CC94A8-FB45-57B7-9075-42B36B9DA970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58CC94A8-FB45-57B7-9075-42B36B9DA970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58CC94A8-FB45-57B7-9075-42B36B9DA970}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76B702B0-B2F5-5634-BE3D-129BFA4A6EDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76B702B0-B2F5-5634-BE3D-129BFA4A6EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76B702B0-B2F5-5634-BE3D-129BFA4A6EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76B702B0-B2F5-5634-BE3D-129BFA4A6EDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{527F14C5-B89E-5E65-8444-F0DD34BCFE5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{527F14C5-B89E-5E65-8444-F0DD34BCFE5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{527F14C5-B89E-5E65-8444-F0DD34BCFE5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{527F14C5-B89E-5E65-8444-F0DD34BCFE5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F74D67C-0D09-53C8-BEC1-53673C54E23D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F74D67C-0D09-53C8-BEC1-53673C54E23D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F74D67C-0D09-53C8-BEC1-53673C54E23D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F74D67C-0D09-53C8-BEC1-53673C54E23D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D50A6F45-3BA8-5E5E-B953-40E993513940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D50A6F45-3BA8-5E5E-B953-40E993513940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D50A6F45-3BA8-5E5E-B953-40E993513940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D50A6F45-3BA8-5E5E-B953-40E993513940}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
